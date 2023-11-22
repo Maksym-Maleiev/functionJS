@@ -93,3 +93,6 @@ generateRandomInsult = function () {
 
   return randomString;
 };
+
+generateRandomInsult();
+/* "Your Face is like a Smelly Stick!!!" */ 
