@@ -29,3 +29,13 @@ var printMultipleTimes = function (howManyTimes, whatToDraw) {
 printMultipleTimes(5, "=^.^=");
 printMultipleTimes(4, "^_^");
 printMultipleTimes(2, "(>_<)");
+
+// ----------
+5 + Math.floor(1.2345);
+/* 5 + 1 = 6 */
+
+var double = function (number) {
+  return number * 2;
+};
+
+
