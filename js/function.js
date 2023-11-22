@@ -37,3 +37,5 @@ printMultipleTimes(2, "(>_<)");
 var double = function (number) {
   return number * 2;
 };
+
+double(3);
