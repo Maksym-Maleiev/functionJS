@@ -44,3 +44,15 @@ double(3);
 // ----------
 double(5) + double(6);
 /* 22 */
+
+double(double(3));
+/* 12 */
+
+// ----------
+var pickRandomWord = function (words) {
+  return words[Math.floor(Math.random() * words.length)];
+};
+
+var randomWords = ["Planet", "Worm", "Flower", "Computer"];
+
+pickRandomWord(randomWords);
