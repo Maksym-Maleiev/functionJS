@@ -28,3 +28,4 @@ var printMultipleTimes = function (howManyTimes, whatToDraw) {
 
 printMultipleTimes(5, "=^.^=");
 printMultipleTimes(4, "^_^");
+printMultipleTimes(2, "(>_<)");
