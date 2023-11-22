@@ -10,6 +10,7 @@ var sayHelloTo = function (name) {
 sayHelloTo("Nick");
 sayHelloTo("Lyra");
 
+// ----------
 var drawCats = function (howManyTimes) {
   for (var i = 0; i < howManyTimes; i++) {
     console.log(i + " =^.^=");
@@ -17,3 +18,5 @@ var drawCats = function (howManyTimes) {
 };
 drawCats(5);
 drawCats(100);
+
+// ----------
