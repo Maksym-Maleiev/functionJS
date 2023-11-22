@@ -95,4 +95,13 @@ generateRandomInsult = function () {
 };
 
 generateRandomInsult();
-/* "Your Face is like a Smelly Stick!!!" */ 
+/* "Your Face is like a Smelly Stick!!!" */
+
+// -------------
+var fifthLetter = function (name) {
+  if (name.length < 5) {
+    return;
+  }
+
+  return "The fifth letter of your name is " + name[4] + ".";
+};
