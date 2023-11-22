@@ -70,4 +70,13 @@ var randomBodyPart = randomBodyParts[Math.floor(Math.random() * 3)];
 var randomAdjective = randomAdjectives[Math.floor(Math.random() * 3)];
 var randomWord = randomWords[Math.floor(Math.random() * 5)];
 
-var random = "Your " + randomBodyPart + " is like a " + randomAdjective + " " + randomWord + "!!!";
+var randomString = "Your " + randomBodyPart + " is like a " + randomAdjective + " " + randomWord + "!!!";
+
+console.log(randomString);
+
+// Use function
+var randomBodyParts = ["Face", "Nose", "Hair"];
+var randomAdjectives = ["Smelly", "Boring", "Stupid"];
+var randomWords = ["Fly", "Marmot", "Stick", "Monkey", "Rat"];
+
+var randomString = "Your " + pickRandomWord(randomBodyParts) + " is like a " + pickRandomWord(randomAdjectives) + " " + pickRandomWord(randomWords) + "!!!";
