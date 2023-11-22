@@ -39,3 +39,4 @@ var double = function (number) {
 };
 
 double(3);
+/* 6 */
