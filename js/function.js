@@ -40,3 +40,7 @@ var double = function (number) {
 
 double(3);
 /* 6 */
+
+// ----------
+double(5) + double(6);
+/* 22 */
