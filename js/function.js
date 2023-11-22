@@ -56,3 +56,13 @@ var pickRandomWord = function (words) {
 var randomWords = ["Planet", "Worm", "Flower", "Computer"];
 
 pickRandomWord(randomWords);
+/* "Flower" */
+
+pickRandomWord(["Charlie", "Raj", "Nicole", "Kate", "Sandy"]);
+/* "Raj" */
+
+// ------------
+var randomBodyParts = ["Face", "Nose", "Hair"];
+var randomAdjectives = ["Smelly", "Boring", "Stupid"];
+var randomWords = ["Fly", "Marmot", "Stick", "Monkey", "Rat"];
+
