@@ -128,3 +128,7 @@ console.log(medalForScore("2"));
 var double = function (number) {
   return number * 2;
 };
+
+function double(number) {
+  return number * 2;
+};
