@@ -123,3 +123,8 @@ var medalForScore = function (score) {
 };
 
 console.log(medalForScore("2"));
+
+// ------------
+var double = function (number) {
+  return number * 2;
+};
